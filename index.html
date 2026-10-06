@@ -16,14 +16,38 @@
     </p>
 
     <p>
-      The application can use the Google Gmail API to send outbound email
-      notifications, status messages, reports, and user-selected file
-      attachments.
+      The application can send outbound email notifications, reports,
+      status messages, and attachments using the Google Gmail API.
     </p>
 
     <p>
-      Gmail access is limited to sending email. The application does not use
-      the Gmail API to read, modify, or delete messages from the user's mailbox.
+      Email is sent from a dedicated application-controlled Gmail account.
+      End users are not required to connect, authorize, or provide access
+      to their own Gmail accounts.
+    </p>
+
+    <p>
+      The application does not access an end user's Gmail mailbox and does
+      not read, modify, or delete messages from an end user's Google account.
+    </p>
+
+    <h2>Email Functionality</h2>
+
+    <p>
+      ACP Control Software may send email containing information generated
+      by the application or provided by the operator, including:
+    </p>
+
+    <ul>
+      <li>Destination email addresses</li>
+      <li>CC addresses, if configured</li>
+      <li>Email subject and message body</li>
+      <li>Application-generated or user-selected file attachments</li>
+    </ul>
+
+    <p>
+      Google OAuth credentials are associated only with the dedicated sender
+      account used by ACP Control Software.
     </p>
 
     <p>
